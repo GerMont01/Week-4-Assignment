@@ -1,0 +1,26 @@
+$mainimg1: url("https://iso.500px.com/wp-content/uploads/2015/12/stock-photo-125301449.jpg");
+$mainimg2: url("https://www.nationalgeographic.com/content/dam/photography/photos/000/000/6.jpg");
+$mainimg3: url("https://cdn.pocket-lint.com/r/s/1200x/assets/images/146898-phones-feature-the-best-apple-iphone-photos-ever-taken-image1-ydter7skel.jpg");
+$mainimg4: url("https://iso.500px.com/wp-content/uploads/2015/12/top.jpg");
+$mainimg5: url("https://wl-brightside.cf.tsp.li/resize/728x/jpg/039/146/7b6ef45df6b94b8fd8a6b8db51.jpg");
+
+$img1: url("https://img.huffingtonpost.com/asset/5bb23f492500009400385c29.jpeg?ops=scalefit_630_noupscale");
+$img2: url("https://iso.500px.com/wp-content/uploads/2015/12/macro_cover.jpg");
+$img3: url("https://rccl-h.assetsadobe.com/is/image/content/dam/royal/special-mkgt/deployment-hub/cathedral-cove-new-zealand.jpg?$750x320$");
+$img4: url("https://travel.home.sndimg.com/content/dam/images/travel/fullset/2016/02/15/spring-break-budget/budget-spring-break-washington-dc-blossoms.jpg.rend.hgtvcom.966.725.suffix/1491592789415.jpeg");
+$img5: url("https://cdn.shopify.com/s/files/1/0384/0233/files/sam__davis.jpg?v=1593686386");
+$img6: url("https://cdn.loveandlemons.com/wp-content/uploads/2020/01/brownie-recipe.jpg");
+$img7: url("https://cdn.hiconsumption.com/wp-content/uploads/2019/04/Best-Outdoor-adventure-Documentaries-0-Hero.jpg");
+$img8: url("https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/salmon-1296x728-header.jpg?h=1528");
+$img9: url("https://www.expo2020dubai.com/-/media/expo2020/programmes/best-practice-programme/expo2020-bpp-5-3200-x-1800.jpg");
+$img10: url("https://i2.wp.com/chefsavvy.com/wp-content/uploads/the-best-fried-rice.jpg?resize=665%2C875&ssl=1");
+$img11: url("https://images.iphonephotographyschool.com/22650/1120/Best-Photo-Editing-Apps.jpg");
+$img12: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
+
+@mixin image($imgnum) {
+    background-image: $imgnum;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}

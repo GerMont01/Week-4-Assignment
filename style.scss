@@ -1,0 +1,242 @@
+@import './fotos';
+// ----------- Row1------------------------
+.row1 {
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 0 5px 2px rgb(190, 190, 190);
+    padding: 1%;
+    font-family: 'Satisfy', cursive;
+    i {
+        font-size: 25px;
+        color: rgb(120, 255, 30);
+    }
+    span {
+        font-size: 20px;
+        padding: 0 4%;
+    }
+    a {
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        padding: 3%;
+    }
+    i:hover {
+        color:rgb(90, 221, 3);
+        transform: scale(1.1);
+    }
+    a:hover {
+        color:rgb(90, 221, 3);
+    }
+}
+// ----------- Row2------------------------
+.row2 {
+    padding: 2%;
+    h1 {
+        font-family: 'Satisfy', cursive;
+        font-size: 32px;
+    }
+}
+// ----------- Row3------------------------
+.row3 {
+    width: 100%;
+    height: 48vw;
+}
+.mainImgs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .simg1, .simg2, .simg3, .simg4, .simg5 {
+        position: absolute;
+        opacity: 0;
+        top: 95px;
+        left: 3%;
+        width: 93%;
+        padding: 5%;
+        height: 50vw;
+        z-index: -1;
+    }
+    .simg1 {
+        opacity: 1;
+    }
+    div {
+        width: 100px;
+        height: 100px;
+    } 
+    .img1 {
+        @include image($mainimg1); 
+    }      
+    .img2 {
+        @include image($mainimg2); 
+    }   
+    .img3 {
+        @include image($mainimg3);
+    }  
+    .img4 {
+        @include image($mainimg4);
+    } 
+    .img5 {
+        @include image($mainimg5);
+    } 
+    .img1:hover .simg1 {
+        opacity: 1;
+    }
+    .img2:hover .simg2 {
+        opacity: 1;
+    }
+    .img3:hover .simg3 {
+        opacity: 1;
+    }
+    .img4:hover .simg4 {
+        opacity: 1;
+    }
+    .img5:hover .simg5 {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 600px) {
+    .row3 {
+        height: 50vw;
+    }
+    .row2 {
+        text-align: center;
+        h1 {
+        color: white;
+        }
+    }
+        
+}
+@media screen and (max-width: 992px) {
+    .row1 {
+        .col1, .col2, .col3 {
+        width: 100%;
+        }
+        nav {
+            width: 100%;
+        }
+    } 
+}
+// ----------- Row4------------------------
+.row4 {
+    padding: 1%;
+    padding-top: 5%;
+    font-family: 'Satisfy', cursive;
+    h1 {
+        font-size: 32px;
+    }
+    
+}
+// ----------- Row5------------------------
+.row5 .col1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10%;
+    div {
+        height: 260px;
+        width: 260px;
+        margin: 0.5%;
+        display: flex;
+        align-items: flex-end;
+        box-shadow: 0 0 5px 2px rgb(190, 190, 190);
+    }
+    i {
+        padding: 5%;
+        font-size: 20px;
+        color: white;
+    }
+    .oderimg1 {
+        @include image($img1);
+    }
+    .oderimg2 {
+        @include image($img2);
+    }
+    .oderimg3 {
+        @include image($img3);
+    }
+    .oderimg4 {
+        @include image($img4);
+    }
+    .oderimg5 {
+        @include image($img5);
+    }
+    .oderimg6 {
+        @include image($img6);
+    }
+    .oderimg7 {
+        @include image($img7);
+    }
+    .oderimg8 {
+        @include image($img8);
+    }
+    .oderimg9 {
+        @include image($img9);
+    }
+    .oderimg10 {
+        @include image($img10);
+    }
+    .oderimg11 {
+        @include image($img11);
+    }
+    .oderimg12 {
+        @include image($img12);
+    }  
+    .oderimg1:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg2:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg3:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg4:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg5:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg6:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg7:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg8:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg9:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg10:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg11:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+    .oderimg12:active {
+        transform: scale(2);
+        z-index: 1;
+    }
+}
+// ----------- Row6------------------------
+.row6 {
+    @extend .row1;
+    font-size: 14px;;
+    .col1 {
+        display: flex;
+        justify-content: center;
+    }
+    a {
+        padding: 0 10%;
+    }
+}

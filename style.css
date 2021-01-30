@@ -1,0 +1,457 @@
+.row1, .row6 {
+  background-color: #f8f8f8;
+  -webkit-box-shadow: 0 0 5px 2px #bebebe;
+          box-shadow: 0 0 5px 2px #bebebe;
+  padding: 1%;
+  font-family: 'Satisfy', cursive;
+}
+
+.row1 i, .row6 i {
+  font-size: 25px;
+  color: #78ff1e;
+}
+
+.row1 span, .row6 span {
+  font-size: 20px;
+  padding: 0 4%;
+}
+
+.row1 a, .row6 a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  padding: 3%;
+}
+
+.row1 i:hover, .row6 i:hover {
+  color: #5add03;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.row1 a:hover, .row6 a:hover {
+  color: #5add03;
+}
+
+.row2 {
+  padding: 2%;
+}
+
+.row2 h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 32px;
+}
+
+.row3 {
+  width: 100%;
+  height: 48vw;
+}
+
+.mainImgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mainImgs .simg1, .mainImgs .simg2, .mainImgs .simg3, .mainImgs .simg4, .mainImgs .simg5 {
+  position: absolute;
+  opacity: 0;
+  top: 95px;
+  left: 3%;
+  width: 93%;
+  padding: 5%;
+  height: 50vw;
+  z-index: -1;
+}
+
+.mainImgs .simg1 {
+  opacity: 1;
+}
+
+.mainImgs div {
+  width: 100px;
+  height: 100px;
+}
+
+.mainImgs .img1 {
+  background-image: url("https://iso.500px.com/wp-content/uploads/2015/12/stock-photo-125301449.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mainImgs .img2 {
+  background-image: url("https://www.nationalgeographic.com/content/dam/photography/photos/000/000/6.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mainImgs .img3 {
+  background-image: url("https://cdn.pocket-lint.com/r/s/1200x/assets/images/146898-phones-feature-the-best-apple-iphone-photos-ever-taken-image1-ydter7skel.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mainImgs .img4 {
+  background-image: url("https://iso.500px.com/wp-content/uploads/2015/12/top.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mainImgs .img5 {
+  background-image: url("https://wl-brightside.cf.tsp.li/resize/728x/jpg/039/146/7b6ef45df6b94b8fd8a6b8db51.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mainImgs .img1:hover .simg1 {
+  opacity: 1;
+}
+
+.mainImgs .img2:hover .simg2 {
+  opacity: 1;
+}
+
+.mainImgs .img3:hover .simg3 {
+  opacity: 1;
+}
+
+.mainImgs .img4:hover .simg4 {
+  opacity: 1;
+}
+
+.mainImgs .img5:hover .simg5 {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .row3 {
+    height: 50vw;
+  }
+  .row2 {
+    text-align: center;
+  }
+  .row2 h1 {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .row1 .col1, .row6 .col1, .row1 .col2, .row6 .col2, .row1 .col3, .row6 .col3 {
+    width: 100%;
+  }
+  .row1 nav, .row6 nav {
+    width: 100%;
+  }
+}
+
+.row4 {
+  padding: 1%;
+  padding-top: 5%;
+  font-family: 'Satisfy', cursive;
+}
+
+.row4 h1 {
+  font-size: 32px;
+}
+
+.row5 .col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10%;
+}
+
+.row5 .col1 div {
+  height: 260px;
+  width: 260px;
+  margin: 0.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-shadow: 0 0 5px 2px #bebebe;
+          box-shadow: 0 0 5px 2px #bebebe;
+}
+
+.row5 .col1 i {
+  padding: 5%;
+  font-size: 20px;
+  color: white;
+}
+
+.row5 .col1 .oderimg1 {
+  background-image: url("https://img.huffingtonpost.com/asset/5bb23f492500009400385c29.jpeg?ops=scalefit_630_noupscale");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg2 {
+  background-image: url("https://iso.500px.com/wp-content/uploads/2015/12/macro_cover.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg3 {
+  background-image: url("https://rccl-h.assetsadobe.com/is/image/content/dam/royal/special-mkgt/deployment-hub/cathedral-cove-new-zealand.jpg?$750x320$");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg4 {
+  background-image: url("https://travel.home.sndimg.com/content/dam/images/travel/fullset/2016/02/15/spring-break-budget/budget-spring-break-washington-dc-blossoms.jpg.rend.hgtvcom.966.725.suffix/1491592789415.jpeg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg5 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0384/0233/files/sam__davis.jpg?v=1593686386");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg6 {
+  background-image: url("https://cdn.loveandlemons.com/wp-content/uploads/2020/01/brownie-recipe.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg7 {
+  background-image: url("https://cdn.hiconsumption.com/wp-content/uploads/2019/04/Best-Outdoor-adventure-Documentaries-0-Hero.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg8 {
+  background-image: url("https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/06/salmon-1296x728-header.jpg?h=1528");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg9 {
+  background-image: url("https://www.expo2020dubai.com/-/media/expo2020/programmes/best-practice-programme/expo2020-bpp-5-3200-x-1800.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg10 {
+  background-image: url("https://i2.wp.com/chefsavvy.com/wp-content/uploads/the-best-fried-rice.jpg?resize=665%2C875&ssl=1");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg11 {
+  background-image: url("https://images.iphonephotographyschool.com/22650/1120/Best-Photo-Editing-Apps.jpg");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg12 {
+  background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
+  background-size: cover;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.row5 .col1 .oderimg1:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg2:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg3:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg4:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg5:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg6:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg7:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg8:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg9:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg10:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg11:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row5 .col1 .oderimg12:active {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  z-index: 1;
+}
+
+.row6 {
+  font-size: 14px;
+}
+
+.row6 .col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row6 a {
+  padding: 0 10%;
+}
+/*# sourceMappingURL=style.css.map */
